@@ -8,6 +8,8 @@ parent::__construct();
 
 public function index()
 {
+
+    // this is test for GitHUB
     if($this->session->userdata('user_type') == 'Admin' )
     {
         $data = array(
