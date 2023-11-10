@@ -11,6 +11,7 @@ public function index()
 
     // this is test for GitHUB
     // Branch test
+    // test after release on Github
     if($this->session->userdata('user_type') == 'Admin' )
     {
         $data = array(
